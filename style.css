@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+}
+
+
+@keyframes a {
+
+    0%{
+        background-color: green;
+        top: 0;
+        left: 0;
+
+     
+    }
+    
+  
+    25%{
+        background-color: rgb(44, 126, 126);
+        background-color: darkgreena;
+        top: 0;
+        left: 1400px;
+    }
+
+    50%{
+        background-color: rgb(195, 0, 255);
+        background-color: coral;
+        top: 600px;
+        left: 1400px;
+    }
+
+
+    75%{
+        background-color: rgb(255, 0, 106);
+        background-color: bisque;
+        top: 600px;
+        left: 00px;
+    }
+
+
+    100%{
+        background-color: rgb(255, 255, 0);
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+    }
+
+} 
